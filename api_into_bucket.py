@@ -23,7 +23,7 @@ def upload_blob_from_stream(bucket_name, url, destination_blob_name, project_id)
     print(
         f"Stream data uploaded to {destination_blob_name} in bucket {bucket_name}."
     )
-    result = destination_blob_name + ' upload complete'
+    result = destination_blob_name + ' upload completed'
     return {'response' : result}
 
 
